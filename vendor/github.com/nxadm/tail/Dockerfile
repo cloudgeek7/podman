@@ -1,4 +1,4 @@
-FROM golang:1.20.1-buster
+FROM golang:1.20.3-buster
 
 RUN mkdir -p $GOPATH/src/github.com/nxadm/tail/
 ADD . $GOPATH/src/github.com/nxadm/tail/
